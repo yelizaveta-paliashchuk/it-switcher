@@ -1,10 +1,10 @@
-let x=1;
-let y=2;
+let x = 2
+let y = 2
 
-console.log("x is " + x + ", and y is "+ y)
+console.log('x is ' + x + ', and y is ' + y)
 
-if(x>1){
-    console.log(x)
-}else{
-    console.log("Error: x<=1")
+if (x > 1) {
+  console.log(x)
+} else {
+  console.log('Error: x<=1')
 }
