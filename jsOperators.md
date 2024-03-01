@@ -11,7 +11,7 @@
 
 # Arithmetic Operators
 
-Used to permorm arithmetical calculations
+Used to perform arithmetical calculations
 
 - Operator: ++ description: Increment
 - Operator: -- description: Decrement
