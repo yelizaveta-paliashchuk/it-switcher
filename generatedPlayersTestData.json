@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "John",
+    "scorePoints": 4500
+  },
+  {
+    "id": 2,
+    "name": "Alice",
+    "scorePoints": 3600
+  },
+  {
+    "id": 3,
+    "name": "Bob",
+    "scorePoints": 3433
+  },
+  {
+    "id": 4,
+    "name": "Emma",
+    "scorePoints": 2356
+  },
+  {
+    "id": 5,
+    "name": "Michael",
+    "scorePoints": 4000
+  },
+  {
+    "id": 6,
+    "name": "Sophia",
+    "scorePoints": 3100
+  },
+  {
+    "id": 7,
+    "name": "Daniel",
+    "scorePoints": 2800
+  },
+  {
+    "id": 8,
+    "name": "Lily",
+    "scorePoints": 2200
+  },
+  {
+    "id": 9,
+    "name": "Alexander",
+    "scorePoints": 3800
+  },
+  {
+    "id": 10,
+    "name": "Olivia",
+    "scorePoints": 3200
+  }
+]
