@@ -16,7 +16,6 @@ let maxScore = Math.max(...scores)
 // find the player with the maximum value in scorePoints proparty
 for (let player of players) {
   if (player.scorePoints === maxScore) {
-    console.log('Player with the maximum scorePoints:')
-    console.log(player)
+    console.log(`Player with the maximum scorePoints: ${player.name}`)
   }
 }
