@@ -1,0 +1,15 @@
+{
+  "name": "it-switcher",
+  "version": "1.0.0",
+  "description": "Команды `git pull` и `git fetch` используются для получения изменений из удаленного репозитория в локальный репозиторий, но имеют некоторые ключевые отличия:",
+  "main": "button.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
