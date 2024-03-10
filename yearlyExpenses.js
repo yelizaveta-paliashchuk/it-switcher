@@ -42,3 +42,36 @@ function isCalculationCorrect(expencesExamples) {
 }
 
 isCalculationCorrect(expencesExamples)
+
+//Домашнее задание 2.4.2
+
+function printMonthsBelowThreshold(yearlyExpences) {
+  const months = [
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'July',
+    'August',
+    'September',
+    'October',
+    'November',
+    'December',
+  ]
+
+  yearlyExpences.forEach((expense, index) => {
+    if (expense <= 1000) {
+      const monthName = new Date(2024, index).toLocaleString('en-US', {
+        month: 'long',
+      })
+      console.log(`${monthName}: ${expense}`)
+    }
+  })
+}
+
+expencesExamples.forEach((example) => {
+  console.log('Months with expenses <= 1000:')
+  printMonthsBelowThreshold(example.yearlyExpences)
+})
