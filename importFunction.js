@@ -1,5 +1,6 @@
 import { logUserName, logTextParameter } from './functions.js'
 import chai from 'chai'
+
 logUserName('Kheladze', 'Lisa') // Kheladze Lisa
 console.log(logTextParameter('Automate')) // 8
 
