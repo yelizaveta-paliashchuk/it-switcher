@@ -1,4 +1,4 @@
-const calculateBonus = require('./homework')
+const calculateBonus = require('./bonus')
 
 describe('Bonus Calculation', () => {
   test('Sum is less then 50', () => {
