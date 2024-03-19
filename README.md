@@ -80,7 +80,7 @@
 
 2. Клонируйте репозиторий с проектом на свой компьютер:
 
-   `git clone https://github.com/your-username/your-project.git`
+   `git clone https://github.com/yelizaveta-paliashchuk/it-switcher.git`
 
 3. Перейдите в каталог проекта:
 
