@@ -1,0 +1,208 @@
+{
+	"id": "67ce003b-56e1-4a26-80a6-8587cb2f7395",
+	"name": "IT-switcher",
+	"timestamp": "2024-04-04T15:13:49.108Z",
+	"collection_id": "31892570-2fe72c32-3369-419e-8522-72690e7fb424",
+	"folder_id": "31892570-c9033bba-2e7d-4b9e-9a99-5ffce7c365dd",
+	"environment_id": "31892570-625f29ae-c6c5-4d13-bd48-f5bc39b94a37",
+	"totalPass": 6,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-04-04T15:13:47.273Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "f272e931-3107-498c-bab1-fc73e2deb179",
+			"name": "Task creation",
+			"url": "https://sqlverifier-live-6e21ca0ed768.herokuapp.com/api/tasks",
+			"time": 233,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				233
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "d30eea4a-6606-48a2-b8e1-88171397bd64",
+			"name": "Task creation -negative -existing id",
+			"url": "https://sqlverifier-live-6e21ca0ed768.herokuapp.com/api/tasks",
+			"time": 188,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				188
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "aeae6ee6-29e4-4698-aa23-9facb1acf6bc",
+			"name": "Task editing",
+			"url": "https://sqlverifier-live-6e21ca0ed768.herokuapp.com/api/tasks/72814",
+			"time": 181,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				181
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "10d56894-5fd0-4040-83a8-28cd821e322f",
+			"name": "Task editing - negative - invalid id",
+			"url": "https://sqlverifier-live-6e21ca0ed768.herokuapp.com/api/tasks/222",
+			"time": 186,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				186
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "1129d634-ec01-422c-918e-267e6956ec1d",
+			"name": "Task deletion",
+			"url": "https://sqlverifier-live-6e21ca0ed768.herokuapp.com/api/tasks/72814",
+			"time": 187,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				187
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			]
+		},
+		{
+			"id": "00431fa2-c604-4826-8bd4-6f069b882f12",
+			"name": "Get tasks",
+			"url": "https://sqlverifier-live-6e21ca0ed768.herokuapp.com/api/tasks/72814",
+			"time": 65,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				65
+			],
+			"allTests": [
+				{
+					"Status code is 404": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1040,
+	"collection": {
+		"requests": [
+			{
+				"id": "f272e931-3107-498c-bab1-fc73e2deb179",
+				"method": "POST"
+			},
+			{
+				"id": "d30eea4a-6606-48a2-b8e1-88171397bd64",
+				"method": "POST"
+			},
+			{
+				"id": "aeae6ee6-29e4-4698-aa23-9facb1acf6bc",
+				"method": "PATCH"
+			},
+			{
+				"id": "10d56894-5fd0-4040-83a8-28cd821e322f",
+				"method": "PATCH"
+			},
+			{
+				"id": "1129d634-ec01-422c-918e-267e6956ec1d",
+				"method": "DELETE"
+			},
+			{
+				"id": "00431fa2-c604-4826-8bd4-6f069b882f12",
+				"method": "GET"
+			}
+		]
+	}
+}
