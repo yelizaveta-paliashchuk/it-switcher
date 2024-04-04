@@ -1,0 +1,14 @@
+id,text,answer,title
+,someText,someAnswer,someTitle
+123,someText,someAnswer,someTitle
+abc,someText,someAnswer,someTitle
+"""£*&^$%",someText,someAnswer,someTitle
+,,someAnswer,someTitle
+,456,someAnswer,someTitle
+,"""£*&^$%",someAnswer,someTitle
+,someText,,someTitle
+,someText,"78,9",someTitle
+,someText,"""£*&^$%",someTitle
+,someText,someAnswer,
+,someText,someAnswer,369852147
+,someText,someAnswer,"""£$%^&*()"
